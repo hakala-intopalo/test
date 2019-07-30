@@ -14,7 +14,130 @@
       {
         "title": "Test Diagram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 466,
+                "y": 194
+              },
+              "angle": 0,
+              "id": "62bf0f66-e519-4b9d-b2f5-f93bf85f800d",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 609,
+                "y": 37
+              },
+              "target": {
+                "x": 598,
+                "y": 460
+              },
+              "vertices": [
+                {
+                  "x": 746,
+                  "y": 263
+                }
+              ],
+              "id": "19547f43-d6b6-4015-9dc9-0d77789c4383",
+              "z": 2,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 890,
+                "y": 195
+              },
+              "angle": 0,
+              "id": "f781629a-87f9-42bc-8125-326bee464241",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "f781629a-87f9-42bc-8125-326bee464241"
+              },
+              "target": {
+                "id": "62bf0f66-e519-4b9d-b2f5-f93bf85f800d"
+              },
+              "vertices": [
+                {
+                  "x": 795,
+                  "y": 234
+                }
+              ],
+              "id": "88752d9e-2650-4fc0-ae9e-c1749ce3a642",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Read",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "protocol": "HTTPS",
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 655,
+          "width": 1050
+        }
       }
     ],
     "reviewer": "Tuomas Hakala"
