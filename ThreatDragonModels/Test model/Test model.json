@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "title": "Test model",
+    "owner": "Tuomas Hakala",
+    "description": "Test system"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Tuomas Hakala"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Test Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Tuomas Hakala"
+  }
+}
